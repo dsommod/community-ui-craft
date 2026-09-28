@@ -1,0 +1,39 @@
+{
+  "schema_version": 3,
+  "project": "",
+  "resources": [],
+  "entry_template": {
+    "id": "",
+    "name": "",
+    "kind": "",
+    "role": "",
+    "visible_result": "",
+    "status": "candidate",
+    "source_url": "",
+    "code_or_package_url": "",
+    "version_or_commit": "",
+    "license_name": "",
+    "license_url": "",
+    "license_local_path": "",
+    "author_or_attribution": "",
+    "acquisition_method": "",
+    "dependencies": [],
+    "local_paths": [],
+    "used_at": [],
+    "adaptations": [],
+    "reuse_class": "",
+    "visual_core_modified": false,
+    "upstream_file_or_export": "",
+    "runtime_external_requests": [],
+    "verification": {
+      "checked_on": "",
+      "states_tested": [],
+      "motion_trigger": "",
+      "perceptible_result": "",
+      "viewports_tested": [],
+      "offline_cold_start": "not_tested",
+      "limitations": []
+    }
+  },
+  "instructions": "Copy entry_template into resources for each selected component, asset or example. Fill only observed facts; remove entry_template and instructions in the project copy. Use project-relative local paths. Distinguish kind: base_ui, engine, visual_component, example, media, font. role describes its actual job; visible_result describes what a user can observe, not merely that a package loaded. Status: candidate, acquired, integrated, verified. Do not record account secrets or signed URLs. reuse_class: asset, component, adaptation, integration; upstream_file_or_export identifies the actual implementation. Record visual_core_modified honestly. Motion verification needs a real trigger and perceptible_result; a running engine is insufficient."
+}
